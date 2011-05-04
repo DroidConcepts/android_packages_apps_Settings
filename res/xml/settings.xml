@@ -20,6 +20,16 @@
     android:title="@string/settings_label"
     android:key="parent">
 
+<!-- Droid Concepts Settings -->
+        <com.android.settings.IconPreferenceScreen
+            settings:icon="@drawable/ic_droidconcepts"
+            android:title="@string/dc_settings_title">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.droidconcepts.settings"
+                android:targetClass="com.droidconcepts.settings.activities.MainActivity" />
+        </com.android.settings.IconPreferenceScreen>
+
 <!--Wireless & networks -->
         <com.android.settings.IconPreferenceScreen
             android:title="@string/radio_controls_title"
