@@ -2540,4 +2540,14 @@ found in the list of installed applications.</string>
     <!-- ADB debugging notification strings -->
     <string name="adb_notify">USB debugging notify</string>
     <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+
+    <!-- Permission settings -->
+    <!-- Title of permission settings Screen -->
+    <string name="permission_settings_title">Show Permissions</string>
+    <!-- Summary of permission settings Screen -->
+    <string name="permission_settings_summary">Displays a list of permissions and which apps are using them</string>
+    <!-- Loading text displayed while loading permissions -->
+    <string name="permission_settings_loading">Loading</string>
+    <!-- Text displayed on Refresh Menu option -->
+    <string name="permission_settings_refresh">Refresh List</string>
 </resources>
