@@ -95,11 +95,11 @@ public class SettingsLicenseActivity extends AlertActivity {
             return;
         }
 
-               mWebView.loadDataWithBaseURL(null, data.toString(), "text/html", "utf-8", null);
+        WebView webView = new WebView(this);
 
         // Begin the loading.  This will be done in a separate thread in WebView.
-        mWebView.loadDataWithBaseURL(null, data.toString(), "text/html", "utf-8", null);
-        mWebView.setWebViewClient(new WebViewClient() {
+        webView.loadDataWithBaseURL(null, data.toString(), "text/html", "utf-8", null);
+        webView.setWebViewClient(new WebViewClient() {
             @Override
             public void onPageFinished(WebView view, String url) {
                 // Change from 'Loading...' to the real title
@@ -109,7 +109,7 @@ public class SettingsLicenseActivity extends AlertActivity {
 
         final AlertController.AlertParams p = mAlertParams;
         p.mTitle = getString(R.string.settings_license_activity_loading);
-        p.mView = mWebView;
+        p.mView = webView;
         p.mForceInverseBackground = true;
         setupAlert();
     }
@@ -119,14 +119,5 @@ public class SettingsLicenseActivity extends AlertActivity {
                 .show();
         finish();
     }
-
-   @Override
-    protected void onDestroy() {
-       if (mWebView != null) {
-           mWebView.destroy();
-           mWebView = null;
-        }
-        super.onDestroy();
-   }
 
 }
