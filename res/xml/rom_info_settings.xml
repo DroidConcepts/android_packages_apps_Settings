@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:title="@string/about_rom">
+            
+<!-- Device -->
+    <Preference android:key="device"
+                        style="?android:preferenceInformationStyle"
+                android:title="@string/device"
+                android:summary="@string/rom_info_default"/>
+<!-- Developer -->
+    <Preference android:key="developer"
+                        style="?android:preferenceInformationStyle"
+                android:title="@string/developer"
+                android:summary="@string/rom_info_default"/>
+<!-- ROM -->
+    <Preference android:key="rom"
+                        style="?android:preferenceInformationStyle"
+                android:title="@string/rom"
+                android:summary="@string/rom_info_default"/>
+<!-- Build Number -->
+    <Preference android:key="build_number"
+                        style="?android:preferenceInformationStyle"
+                android:title="@string/build_number"
+                android:summary="@string/rom_info_default"/>
+<!-- Code Base -->
+    <Preference android:key="code_base"
+                        style="?android:preferenceInformationStyle"
+                android:title="@string/code_base"
+                android:summary="@string/rom_info_default"/>
+
+</PreferenceScreen>
