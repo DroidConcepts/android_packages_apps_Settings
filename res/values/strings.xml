@@ -2529,9 +2529,13 @@ found in the list of installed applications.</string>
     <string name="sound_category_notification_title">Notifications</string>
     <string name="sound_category_feedback_title">Feedback</string>
 
-<!-- Droid Concepts Added Strings -->
+    <!-- Droid Concepts Added Strings -->
     <!-- Droid Concepts Settings -->
    <string name="dc_settings_title">Droid Concepts Settings</string>
+
+    <!-- Mod Version Strings -->
+    <string name="mod_version">Mod version</string>
+    <string name="mod_version_default">Unknown</string>
 
     <!-- ADB debugging notification strings -->
     <string name="adb_notify">USB debugging notify</string>
