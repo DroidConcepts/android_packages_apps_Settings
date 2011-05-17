@@ -2529,19 +2529,19 @@ found in the list of installed applications.</string>
     <string name="sound_category_notification_title">Notifications</string>
     <string name="sound_category_feedback_title">Feedback</string>
 
-    <!-- Droid Concepts Added Strings -->
-    <!-- Droid Concepts Settings -->
+<!-- Droid Concepts Added Strings -->
+<!-- Droid Concepts Settings -->
    <string name="dc_settings_title">Droid Concepts Settings</string>
 
-    <!-- Mod Version Strings -->
+<!-- Mod Version Strings -->
     <string name="mod_version">Mod version</string>
     <string name="mod_version_default">Unknown</string>
 
-    <!-- ADB debugging notification strings -->
+<!-- ADB debugging notification strings -->
     <string name="adb_notify">USB debugging notify</string>
     <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
 
-    <!-- About ROM Strings -->
+<!-- About ROM Strings -->
     <string name="about_rom">About ROM</string>
     <string name="about_rom_summary">View ROM specific details</string>
     <string name="rom_info_default">Unknown</string>
@@ -2550,5 +2550,26 @@ found in the list of installed applications.</string>
     <string name="developer">Developed By:</string>
     <string name="rom">ROM</string>
     <string name="code_base">Code Base</string>
+
+<!-- General Info Strings -->
+   <string name="info_title">General ROM Info</string>
+   <string name="changelog_title">Changelog</string>
+   <string name="changelog_dialog">Changelog</string>
+   <string name="changelog_loading">Loading Changelog...</string>
+   <string name="changelog_error">Error loading changelog...</string>
+   <string name="changelog_unknown">Unknown</string>
+   <string name="changelog_version">Version</string>
+   <string name="credits_title">Credits</string>
+   <string name="credits_dialog">Credits</string>
+   <string name="credits_loading">Loading Credits...</string>
+   <string name="credits_error">Error loading credits...</string>
+   <string name="credits_unknown">Unknown</string>
+   <string name="credits_version">Version</string>
+
+   <string name="license_dialog">License</string>
+   <string name="license_loading">Loading License...</string>
+   <string name="license_error">Error loading license...</string>
+   <string name="license_unknown">Unknown</string>
+   <string name="license_version">Version</string>
 
 </resources>

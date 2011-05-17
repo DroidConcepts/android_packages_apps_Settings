@@ -312,7 +312,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="RomInfoSettings" 
+<!-- Droid Concepts Addons -->
+    <activity android:name="RomInfoSettings" 
                   android:label="@string/rom_info_settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -320,7 +321,25 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.VOICE_LAUNCH" />
             </intent-filter>
-        </activity>
+    </activity>
+
+    <activity android:name=".ChangeLog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+    </activity>
+
+    <activity android:name=".Credits">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+    </activity>
+
+    <activity android:name=".License">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+    </activity>
 
         <activity android:name="DeviceInfoSettings" android:label="@string/device_info_settings"
                 >
