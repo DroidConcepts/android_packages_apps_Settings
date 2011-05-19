@@ -2565,11 +2565,16 @@ found in the list of installed applications.</string>
    <string name="credits_error">Error loading credits...</string>
    <string name="credits_unknown">Unknown</string>
    <string name="credits_version">Version</string>
-
+   <string name="contributors_dialog">Contributors</string>
+   <string name="contributors_loading">Loading Contributors...</string>
+   <string name="contributors_error">Error loading contributors...</string>
+   <string name="contributors_unknown">Unknown</string>
+   <string name="contributors_version">Version</string>
    <string name="license_dialog">License</string>
    <string name="license_loading">Loading License...</string>
    <string name="license_error">Error loading license...</string>
    <string name="license_unknown">Unknown</string>
    <string name="license_version">Version</string>
+
 
 </resources>

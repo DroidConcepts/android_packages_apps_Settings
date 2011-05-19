@@ -335,6 +335,12 @@
             </intent-filter>
     </activity>
 
+    <activity android:name=".Contributors">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+    </activity>
+
     <activity android:name=".License">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
