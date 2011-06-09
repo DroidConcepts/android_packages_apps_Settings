@@ -113,10 +113,10 @@ public class DevelopmentSettings extends PreferenceActivity
         } else if (preference == mAllowMockLocation) {
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.ALLOW_MOCK_LOCATION,
                     mAllowMockLocation.isChecked() ? 1 : 0);
-        }
         } else if (preference == mKillAppLongpressBack) {
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.KILL_APP_LONGPRESS_BACK,
                     mKillAppLongpressBack.isChecked() ? 1 : 0);
+        }
 
         return false;
     }
