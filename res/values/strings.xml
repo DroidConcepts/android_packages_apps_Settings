@@ -2541,6 +2541,10 @@ found in the list of installed applications.</string>
     <string name="adb_notify">USB debugging notify</string>
     <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
 
+<!-- Kill app on long press of back button -->
+    <string name="kill_app_longpress_back">Stop app via long-press</string>
+    <string name="kill_app_longpress_back_summary">Long-pressing the BACK button will kill the foreground application.</string>
+
 <!-- About ROM Strings -->
     <string name="about_rom">About ROM</string>
     <string name="about_rom_summary">View ROM specific details</string>
